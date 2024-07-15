@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Nunito+Sans&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Sacramento&display=swap');
+
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    
+  }
+  
+  /* Barra de navegación */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b80a3e;
+    height: 120px;
+    color: #fff;
+    padding: 5px 10%;
+    position: fixed;
+    z-index: 5;
+  
+  width: 100%;
+    
+  }
+  .header h2{
+    pointer-events: none;
+    font-size: 50px;
+    
+  }
+
+  
+  .header .logo{
+    cursor: pointer;
+  }
+
+  
+  
+  .header .logo img{
+    height: 80px;
+    border-radius: 15%;
+    transition: all 0.3s;
+  }
+
+  .header .logo img:hover{
+    transform: scale(1.2);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    transition: all 0.2s;
+  }
+  nav ul li:hover{
+    transform: scale(1.2);
+  }
+
+  nav ul li a {
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+
+  }
+
+  nav ul li a:hover{
+    color: rgb(106, 3, 3);
+    font-weight:600;
+  }
+  
+  /* Cuerpo */
+  body{
+   background: 
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+
+background-color: #300; 
+background-size: 100px 100px;
+background-attachment: fixed;
+
+}
+    
+    
+  
+
+ main{
+    padding-top: 125px;
+    width: 100%;
+    height: 100%;
+    padding: 0 auto;
+
+    
+
+ }
+
+ main h1{
+  text-align: center;
+  margin: 30px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+   color: #FFD700;
+ }
+
+ main img{
+  display: block;
+  margin: 50px auto;
+  width: 50%;
+ }
+
+ .video-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo claro y transparente */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 20px;
+  width: 90%;
+  margin: 90px auto;
+}
+
+.redondel{
+  border-radius: 15px;
+}
+
+
+
+.video-line {
+  border-top: 1px solid #000; /* Línea separadora */
+  margin-top: 20px; /* Espacio entre la línea y los videos */
+  margin-bottom: 20px;
+}
+
+
+.video-container h2 {
+  text-align: center; /* Centrar el título */
+   /* Añadir espacio debajo del título */
+  display: flex;
+  align-items: center;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 35px;
+}
+
+.video-container .line {
+  flex-grow: 1;
+  height: 6px;
+  background-color: black; /* Color de la línea */
+  margin: 100px 10px; /* Ajustar los márgenes de la línea */
+}
+
+
+
+
+.video-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+
+.paso-zebra{
+  width: 500px;
+  margin-top: 0;
+}
+.video {
+  width: 45%; /* Ocupa el 50% del ancho disponible */
+  /* Estilos para el contenedor del video */
+}
+
+.paso-zebra{
+  width: 60%;
+}
+.beatles{
+margin-top: 20px;
+padding-bottom: 0;
+height: 140px;
+}
+.atajo{
+  text-decoration: none;
+  color: #000;
+}
+
+.video{
+  margin: auto 0;
+}
+
+.pogo{
+  width: 40%;
+}
+.pogod{
+  width: 60%;
+}
+
+.description {
+  width: 50%; /* Ocupa el 50% del ancho disponible */
+  margin: 0 20px;
+  text-align: justify;
+  
+}
+
+/* Alternar la posición de video y descripción en elementos impares */
+.video-item:nth-child(odd) .video {
+  order: 1;
+}
+
+.video-item:nth-child(odd) .description {
+  order: 1;
+}
+
+ 
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+
+  

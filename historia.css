@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Nunito+Sans&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Sacramento&display=swap');
+
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    
+  }
+  
+  /* Barra de navegación */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b80a3e;
+    height: 120px;
+    color: #fff;
+    padding: 5px 10%;
+    position: fixed;
+  
+  width: 100%;
+    
+  }
+  .header h2{
+    pointer-events: none;
+    font-size: 50px;
+    
+  }
+
+  
+  .header .logo{
+    cursor: pointer;
+  }
+
+  
+  
+  .header .logo img{
+    height: 80px;
+    border-radius: 15%;
+    transition: all 0.3s;
+  }
+
+  .header .logo img:hover{
+    transform: scale(1.2);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    transition: all 0.2s;
+  }
+  nav ul li:hover{
+    transform: scale(1.2);
+  }
+
+  nav ul li a {
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+
+  }
+
+  nav ul li a:hover{
+    color: rgb(106, 3, 3);
+    font-weight:600;
+  }
+  
+  /* Cuerpo */
+  body{
+    
+    background-image: url("img\ aniversary/playita.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    
+  }
+
+ main{
+    padding-top: 120px;
+    height: 100%;
+    
+  font-size: 20px;
+  width: 90%;
+  margin: 0 auto;
+  
+    
+ }
+
+ main h1{
+  text-align: center;
+ }
+ main h2{
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 2em
+ }
+
+ .playuqui{
+  width: 200px;
+  margin: 0 auto;
+
+ }
+
+ .intro{
+  text-align: center;
+ }
+
+ section{
+  display: flex;
+  width: 90%;
+  overflow: hidden;
+  height: auto;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  align-items: center;
+
+ }
+ section p{
+  text-align: justify;
+ }
+
+ section img{
+  max-width: 100%;
+  height: 400px;
+  margin: 0 10px;
+ }
+
+ .two-columns {
+  column-count: 2;
+  column-gap: 20px; 
+  height: 100%;/* Espacio entre columnas, ajusta según tus preferencias */
+}
+
+.column-content p {
+  margin-bottom: 10px;
+  margin-top: 20px; /* Espacio entre párrafos, ajusta según tus preferencias */
+}
+
+
+
+
+/* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+ 
